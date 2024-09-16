@@ -1,11 +1,14 @@
-# Learning Reward Profiles for Generating Causal Explanations of Agent Behavioural Interactions
-The contents of this ZIP archive relate to the correspondingly named paper and provide comprehensive experiment outputs & results, as well as a summary video of the work. In the final version of the work, most of these files and additional besides will be made available via a GitHub repository. Additional README files will be provided in subdirectories where needed.
+# Generating Causal Explanations of Vehicular Agent Behavioural Interactions with Learnt Reward Profiles
+The data, code, parameters, and videos here relate to a causal explanation generation approach utilising learnt reward profiles and the experiments evaluating it. Specifically, the framework generates explanations for agents within the autonomous driving domain.
 
 ## Code
-Contains code relating to the methodology shown in the paper. Due to the anonymity requirements, the main source code is not available, as there are multiple references to the authors' institution in the code.
+The code for the framework as well as any utility scripts.
 
 ## Data
-Contains data relevant to the experiments carried out with the methodology. Due to the fact highD, inD, and exiD are not open access datasets, the input data is not supplied here. As such, this folder just consists of output / results from the quantitative experiments.
+Data and parameters relating to the experiments carried out upon the framework. Note that the experiments referred to here rely upon the High-D dataset which is free for non-commercial use by application at the following link: https://www.highd-dataset.com/. However, as the dataset is not public, only the output experiment data is available in this repository.
 
 ## Videos
 Contains the summary video for the paper as a whole, as well as qualitative experiment videos depicting the scenarios discussed in the paper.
+
+# Paper
+Corresponding conference paper is currently under consideration for IEEE ICRA 2025.
