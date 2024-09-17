@@ -1,7 +1,7 @@
 # Quantitative Experiments
-Here we provide the output data and results from the quantitative experiments carried out on the extracted highD scenes. The proposed methods was intentionally designed to take similar input and give similar output to SimCARS and thus these two methods share a similar file structure here. All the other approaches were evaluated upon a fork of another repository (https://github.com/ckassaad/causal_discovery_for_time_series) with additional extensions, and thus follow a different file structure. Note that we will include a reference to this forked repository as a submodule of the GitHub repository mentioned in the top-level README.
+Here we provide the output data and results from the quantitative experiments carried out on the extracted highD scenes. SimCARSv2 and SimCARSv1 both share a similar file structure here. All the other approaches were evaluated upon a fork of another repository (https://github.com/ckassaad/causal_discovery_for_time_series) with additional extensions, and thus follow a different file structure. We will include this fork as a submodule in the code directory.
 
-## Proposed Method / SimCARS
+## SimCARSv2 / SimCARSv1
 These directories have the following structure:
 - {threshold}/scene-{scene}-{follower}_follows_{followed}-{independent}_independent.json: A file containing the output data comprised of causal links. The naming convention is based upon the following variables:
     * threshold: The threshold utilised for this set of experiments. This corresponds to the action distance threshold for the proposed method and the reward difference threshold for SimCARS.
