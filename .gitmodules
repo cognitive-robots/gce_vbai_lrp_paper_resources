@@ -1,0 +1,3 @@
+[submodule "code/SimCARSv2"]
+	path = code/simcars
+	url = https://github.com/cognitive-robots/SimCARSv2
