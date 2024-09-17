@@ -1,5 +1,5 @@
 # Quantitative Experiments
-Here we provide the output data and results from the quantitative experiments carried out on the extracted highD scenes. SimCARSv2 and SimCARSv1 both share a similar file structure here. All the other approaches were evaluated upon a fork of another repository (https://github.com/ckassaad/causal_discovery_for_time_series) with additional extensions, and thus follow a different file structure. We will include this fork as a submodule in the code directory.
+Here we provide the output data and results from the quantitative experiments carried out on the extracted highD scenes. SimCARSv2 and SimCARSv1 both share a similar file structure here. All the other approaches were evaluated upon a common framework and thus follow a different yet consistent file structure.
 
 ## SimCARSv2 / SimCARSv1
 These directories have the following structure:
